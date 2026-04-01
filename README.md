@@ -15,6 +15,7 @@ Below are the visual results of the stochastic diffusion process. The animations
 
 ### 📐 Wedge Diffusion
 *Absorption and dispersion within a fixed angle.*
+
 ![Wedge Diffusion](wedge_diffusion.gif)
 
 ### 📈 Cartesian Analysis
