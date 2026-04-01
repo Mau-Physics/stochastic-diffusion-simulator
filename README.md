@@ -38,6 +38,8 @@ $$\nu = \frac{n\pi}{\alpha}$$
 ## 2. The Ring Geometry (Periodic Boundaries)
 For a ring of circumference $L$, we apply periodic boundary conditions $P(x, t) = P(x+L, t)$. The solution converges to a **uniform distribution** (steady state) as $t \to \infty$, characterized by the Fourier series expansion of the initial concentration.
 
+Detailed Theory: View PDF Documentation
+
 ## 🛠️ Features
 * **Flexible Parameters:** Easily adjust the ring radius or wedge angle.
 * **Automated Visualization:** Generates `.mp4` or `.gif` animations showing probability dispersion over time.
@@ -46,7 +48,7 @@ For a ring of circumference $L$, we apply periodic boundary conditions $P(x, t) 
 ## 📁 Repository Structure
 * `/simulations`: Exported animations of the diffusion process.
 * `Stochastic_Diffusion.ipynb`: Python implementation (Numerical methods + Plotly/Matplotlib).
-* `Theory_Stochastic_Diffusion.pdf`: Full mathematical derivation (Spanish).
+* `Theory_Stochastic_Diffusion.pdf`: Full mathematical derivation.
 
 ## 🧰 Tech Stack
 * Python (NumPy, SciPy, Matplotlib)
