@@ -1,6 +1,3 @@
-# stochastic-diffusion-simulator
-A Python-based stochastic simulator for heat and particle diffusion in complex geometries (Wedges and Rings). Features analytical solutions, numerical modeling via Google Colab, and automated visual exports (.mp4/.gif).
-
 # Stochastic Diffusion Simulator: Wedges & Rings
 
 A high-performance stochastic simulator to model heat and particle diffusion in complex geometries. This project bridges theoretical physics with numerical modeling, providing visual and analytical insights into diffusion processes.
