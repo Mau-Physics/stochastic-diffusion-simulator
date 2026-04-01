@@ -29,8 +29,14 @@ Below are the visual results of the stochastic diffusion process. The animations
 ## 🧠 Mathematical Background
 The project solves the **Fokker-Planck Equation** (Diffusion Equation) for two specific cases:
 
-1. **The Wedge Geometry:** Brownian particle diffusion with absorbing boundaries. Solved using separation of variables in polar coordinates and Bessel functions.
-2. **The Ring/Torus:** Diffusion in a circular tubular domain of circumference $2l$ with periodic boundary conditions.
+## 1. The Wedge Geometry (Dirichlet Boundaries)
+The diffusion process is modeled using the Heat Equation in polar coordinates $(r, \theta)$. For a wedge of angle $\alpha$, we solve:
+$$\frac{\partial P}{\partial t} = D \nabla^2 P$$
+Using separation of variables, the solution involves **Bessel Functions** of the first kind $J_\nu(kr)$, where the order $\nu$ is determined by the boundary conditions:
+$$\nu = \frac{n\pi}{\alpha}$$
+
+## 2. The Ring Geometry (Periodic Boundaries)
+For a ring of circumference $L$, we apply periodic boundary conditions $P(x, t) = P(x+L, t)$. The solution converges to a **uniform distribution** (steady state) as $t \to \infty$, characterized by the Fourier series expansion of the initial concentration.
 
 ## 🛠️ Features
 * **Flexible Parameters:** Easily adjust the ring radius or wedge angle.
