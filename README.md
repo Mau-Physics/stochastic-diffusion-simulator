@@ -5,6 +5,22 @@ A Python-based stochastic simulator for heat and particle diffusion in complex g
 
 A high-performance stochastic simulator to model heat and particle diffusion in complex geometries. This project bridges theoretical physics with numerical modeling, providing visual and analytical insights into diffusion processes.
 
+## 📺 Live Simulations
+
+Below are the visual results of the stochastic diffusion process. The animations show how probability density evolves over time in different geometries.
+
+### 🟢 Ring Diffusion (Polar View)
+*Periodic boundary conditions in a circular domain.*
+![Ring Polar](ring_diffusion_polar.gif)
+
+### 📐 Wedge Diffusion
+*Absorption and dispersion within a fixed angle.*
+![Wedge Diffusion](wedge_diffusion.gif)
+
+### 📈 Cartesian Analysis
+*Linear representation of the concentration evolution.*
+![Ring Cartesian](ring_diffusion_cartesian.gif)
+
 ## 🚀 Quick Access
 * **Interactive Code:** [Open in Google Colab](https://colab.research.google.com/drive/15l8qwfbsedoGXcBStuctSXT2Py14anlr?usp=sharing)
 * **Detailed Theory:** `Theory_Stochastic_Diffusion.pdf` (Included in this report)
