@@ -9,14 +9,14 @@ A high-performance stochastic simulator to model heat and particle diffusion in 
 
 Below are the visual results of the stochastic diffusion process. The animations show how probability density evolves over time in different geometries.
 
-### 🟢 Ring Diffusion (Polar View)
-*Periodic boundary conditions in a circular domain.*
-![Ring Polar](ring_diffusion_polar.gif)
-
 ### 📐 Wedge Diffusion
 *Absorption and dispersion within a fixed angle.*
 
 ![Wedge Diffusion](wedge_diffusion.gif)
+
+### 🟢 Ring Diffusion (Polar View)
+*Periodic boundary conditions in a circular domain.*
+![Ring Polar](ring_diffusion_polar.gif)
 
 ### 📈 Cartesian Analysis
 *Linear representation of the concentration evolution.*
