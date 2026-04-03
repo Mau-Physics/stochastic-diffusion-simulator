@@ -21,7 +21,7 @@ Below are the visual results of the stochastic diffusion process. The animations
 
 ## 🚀 Quick Access
 * **Interactive Code:** [Open in Google Colab](https://colab.research.google.com/drive/15l8qwfbsedoGXcBStuctSXT2Py14anlr?usp=sharing)
-* **Detailed Theory:** `Theory_Stochastic_Diffusion.pdf` (Included in this report)
+* **Detailed Theory:** [View PDF Documentation](Theory_Stochastic_Diffusion.pdf) (Included in this report)
 
 ## 🧠 Mathematical Background
 The project solves the **Fokker-Planck Equation** (Diffusion Equation) for two specific cases:
@@ -35,7 +35,7 @@ $$\nu = \frac{n\pi}{\alpha}$$
 ## 2. The Ring Geometry (Periodic Boundaries)
 For a ring of circumference $L$, we apply periodic boundary conditions $P(x, t) = P(x+L, t)$. The solution converges to a **uniform distribution** (steady state) as $t \to \infty$, characterized by the Fourier series expansion of the initial concentration.
 
-Detailed Theory: View PDF Documentation
+Detailed Theory:[View Mathematical Derivation (PDF)](Theory_Stochastic_Diffusion.pdf)
 
 ## 🛠️ Features
 * **Flexible Parameters:** Easily adjust the ring radius or wedge angle.
